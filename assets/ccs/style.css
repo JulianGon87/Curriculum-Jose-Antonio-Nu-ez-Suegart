@@ -12,3 +12,38 @@
 footer {
   color: aliceblue;
 }
+
+/* Efectos hover para las tarjetas */
+.hover-card {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.hover-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo especial para la tarjeta de datos personales */
+.personal-card {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border: 1px solid #dee2e6;
+}
+
+.personal-card:hover {
+  background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
+}
+
+.personal-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.personal-card li {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.personal-card li:last-child {
+  border-bottom: none;
+}
